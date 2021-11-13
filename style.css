@@ -1,0 +1,111 @@
+/* --Body-- */
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #EDEDED;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* --Navbar-- */
+.navigation {
+  color: white;
+  font-family: sans-serif;
+  background-color: #0dc7be;
+  font-weight: bold;
+  padding: inherit;
+}
+.navigation .navbar-brand {
+  color: white;
+  font-family: Verdana;
+  font-size: 40px;
+  background-color: #0dc7be;
+  font-weight: bold;
+  margin-left: 40px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.navbar {
+  max-height: 80px;
+  background-color: white;
+  font-size: 20px;
+}
+.dropdown-item{
+  color: #6D8092; 
+}
+/* Show different color when hovering over items on the navbar */
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+  background-color:#9b9898; 
+}
+.navigation .nav-link:hover{
+  background-color:#b6b4b4;
+ }
+.navigation .navbar-brand:hover{
+  color: rgb(171, 209, 208);
+}
+.container {
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* Images */
+img {
+  width: 100%;
+  height: 100%;
+}
+.img-fluid:hover{
+  border-color: #0BADA6;
+  border-style: solid;
+}
+.img-active {
+  border-color:#0BADA6;
+  border-style: solid; 
+}
+/* Surrond imgage with text */
+.visualization{
+  width: 50%;
+  height: 50%;
+}
+/* Title */
+.title {
+  color: #08726d;  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder; 
+  padding-top: 25px; 
+}
+/* Paragraph */
+p {
+  color: #52606d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px; 
+}
+/* Box */
+.box {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  padding: 20px 20px 20px;
+  color: black;
+  background-color: white;
+}
+
+/* Table */
+.table-responsive {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media(max-width: 992px){
+.navbar-brand {
+  color: white;
+  font-size: 50px;
+  background-color: #0a9992;
+  padding: 10px;
+}
+.navbar{
+  max-height: none; 
+  padding: inherit;
+}
+.container{
+  background-color: white;
+}
+}
